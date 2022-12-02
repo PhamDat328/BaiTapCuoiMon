@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1240px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+}
+
+.item-container {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.item-container .primary-info {
+    display: flex;
+    justify-content: center;
+}
+
+.primary-info .right-side {
+    width: 35%;
+}
+
+.primary-info .left-right {
+    width: 65%;
+    padding-left: 25px;
+}
+
+.main-picture img {
+    width: 412px;
+    height: 400px;
+    border: 2px solid #bab7b7;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: all 2s;
+}
+
+.others-picture img {
+    width: 15%;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid #a6a6a6;
+    background-color: #ffffff;
+}
+
+.detail-info table {
+    background-color: #ffffff;
+    border-spacing: 0px;
+    border: 1px solid #eeeeee;
+    color: #333333;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+.detail-info table td {
+    border-color: #9b9b9b;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    padding: 8px;
+    vertical-align: top;
+    width: 80%;
+}
+
+.detail-info table .header {
+    background-color: #e1dede !important;
+    border-color: #9b9b9b;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    padding: 8px;
+    vertical-align: top;
+    width: 20%;
+}
