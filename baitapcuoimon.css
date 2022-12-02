@@ -237,3 +237,54 @@ footer {
     background-color: #27c500;
     color: #fff;
 }
+
+.insurence .container .insurence-box .video {
+    width: 80%;
+  }
+  
+  .insurence .container .insurence-box .video iframe {
+    border-radius: 8px;
+    width: 100%;
+    height: 60vh;
+  }
+
+  .insurence {
+    background-color: #e3e3e3;
+    padding: 20px 0;
+    margin-top: 2rem;
+  }
+  
+  .insurence .container {
+    max-width: 1200px;
+  }
+  
+  .insurence .container .insurence-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .insurence .container .insurence-box .content {
+    width: 80%;
+    text-align: center;
+  }
+  
+  .insurence .container .insurence-box .content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Volkhov", serif;
+    line-height: 3.125rem;
+  }
+  
+  .insurence .container .insurence-box .content p {
+    font-size: 17px;
+    line-height: 27px;
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 3rem;
+  }
